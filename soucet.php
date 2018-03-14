@@ -9,7 +9,17 @@
         <?php
             $soucet = $_POST['cislo1'] + $_POST['cislo2'];
             $odpocet = $_POST['cislo1'] - $_POST['cislo2'];
-            echo("Soucet cisel je  " .  $soucet . " a odpocet cisel je: " . $odpocet);
+            $nasobek = $_POST['cislo1'] * $_POST['cislo2'];
+            $deleni = $_POST['cislo1'] / $_POST['cislo2'];
+            echo("Součet čísel je  " .  $soucet . ", odpočet čísel je " . $odpocet . ", násobek dvou zadaných čísel je "
+                    . $nasobek . ", vydělením těchto čísel dostanu číslo " . $deleni . ".");
+                                  
+        ?>
+        
+        <br>
+        
+        <?php
+                echo("Děkuji za použití mé kalkulačky. Hezký den, vole!")
         ?>
     </body>
 </html>
