@@ -8,11 +8,12 @@
     <body>
         <p>Vítejte v kalkulačce</p>
         
-        <form method="POST" action="soucet.php">
+        <form method="POST" action="soucet.php" action="odpocet.php">
             <input name="cislo1" type="text" /><br />
             <input name="cislo2" type="text" /><br />
             <input type="submit" value="Sečti"  /><br />
-            
-        </form>
+        </form> 
+        
+        
     </body>
 </html>
