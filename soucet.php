@@ -2,12 +2,12 @@
 
 <html>
     <head>
-        <meta charset="UTF-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Kalkulačka</title>
     </head>
     <body>
         <?php
-            $soucet = $_GET['cislo1'] + $_GET['cislo2'];
+             $soucet = $_POST['cislo1'] + $_POST['cislo2'];
             echo("Součet: $soucet");
         ?>
     </body>
